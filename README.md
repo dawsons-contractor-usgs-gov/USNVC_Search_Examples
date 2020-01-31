@@ -26,3 +26,6 @@ Sample queries are:
 
 Note that at the bottom of the individual result set the specific row_id is returned, as well as a uri to retrieve 
 the specific item. 
+
+The api endpoint **/api/v1/usnvc/units/{identifier}** retrieves an individual item. The Identifier is used to drill down to a specific 
+item. Generally this would be an item retrieved as part of more general query. The item number represents that specific unit in the data store and has no meaning other than being a unique identifier.  **It is not some type number assigned by a governing body(? IS THIS TRUE )**
